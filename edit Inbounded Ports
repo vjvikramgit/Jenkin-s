@@ -1,0 +1,6 @@
+HTTP: 80
+Jenkins: 8080
+Tomcat: 8099
+DNS : 53
+22: SSH
+443: SSL
