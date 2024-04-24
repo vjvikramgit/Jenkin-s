@@ -12,7 +12,7 @@ echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]" \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 #Install Jenkins
 sudo apt-get install jenkins
-
+#JAVA switch user
 update-alternatives --config java
 
 #STEP-4: RESTARTING JENKINS (when we download service it will on stopped state)
